@@ -5,6 +5,6 @@ python -m venv .venv
 # Instalando dependencias
 python -r requirements.txt
 # Rodando o servidor local
-uvicorn ToDO:app --reload
+uvicorn ToDo:app --reload
 # Acessando pelo navegador
 127.0.0.1:8000/docs
